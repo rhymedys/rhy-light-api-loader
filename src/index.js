@@ -1,13 +1,13 @@
 /*
  * @Author: Rhymedys/Rhymedys@gmail.com 
  * @Date: 2017-11-29 11:41:02 
- * @Last Modified by:   Rhymedys 
- * @Last Modified time: 2017-11-29 11:41:02 
+ * @Last Modified by: Rhymedys
+ * @Last Modified time: 2017-11-29 13:41:19
  */
 
 module.exports = function (source, map, meta) {
   this.cacheable()
-  if (map && map.sources[0].indexOf('devApi') > -1) {
+  if (map && map.sources[0].toLowerCase().indexOf('devapi') > -1) {
     if (source.indexOf('exports.default') > -1) {
       let removePartStartPostion = source.indexOf('{', source.indexOf('exports.default'))
       let removePartEndPostion = source.lastIndexOf('}')
