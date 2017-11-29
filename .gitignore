@@ -1,0 +1,8 @@
+*.swp
+node_modules
+.idea
+*.log
+
+test/e2e/bowl.js
+notes.md
+/.svn
