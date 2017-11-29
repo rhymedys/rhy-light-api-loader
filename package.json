@@ -1,8 +1,8 @@
 {
-  "name": "cc.api.loader",
+  "name": "cc-api-loader",
   "version": "0.0.2",
   "description": "remove debugApi",
-  "main": "lib/cc.api.loader.sdk.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
