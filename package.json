@@ -11,7 +11,7 @@
     "build": "node build/build.js",
     "test:unit": "karma start build/karma.config.js"
   },
-  "author": "rhymedys",
+  "author": "Rhymedys<Rhymedys@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
