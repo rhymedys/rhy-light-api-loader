@@ -1,5 +1,5 @@
 {
-  "name": "cc-api-loader",
+  "name": "light-api-loader",
   "version": "0.0.5",
   "description": "remove debugApi",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhymedys/dev-api-loader.git"
+    "url": "git+https://github.com/rhymedys/light-api-loader.git"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
