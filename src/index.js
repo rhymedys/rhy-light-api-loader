@@ -2,7 +2,7 @@
  * @Author: Rhymedys/Rhymedys@gmail.com
  * @Date: 2017-11-29 11:41:02
  * @Last Modified by: Rhymedys
- * @Last Modified time: 2019-11-11 15:40:27
+ * @Last Modified time: 2019-11-11 15:54:54
  */
 
 const utils = require('loader-utils')
@@ -20,7 +20,6 @@ module.exports = function (source, map, meta) {
     const removePartEndPostion = source.lastIndexOf('}')
     const removePart = source.substring(removePartStartPostion + 1, removePartEndPostion)
     const newSource = source.replace(removePart, '')
-    console.log(newSource)
     this.callback(null, newSource, map, meta)
     return
   }
